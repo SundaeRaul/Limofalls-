@@ -1,0 +1,25 @@
+.bodyHeader{
+    height: 15vh;
+    width: 100vw;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    margin-left: 100px;
+}
+.menuIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.emailNav {
+    color: white;
+}
+
+
