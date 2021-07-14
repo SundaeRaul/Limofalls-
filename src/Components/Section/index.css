@@ -35,7 +35,6 @@
 }
 
 .divCards {
-    background: chartreuse;
     width: 60%;
     height: 548px;
     display: flex;
@@ -49,7 +48,6 @@
 
 .cards {
     margin-top: 30px;
-    background: crimson;
     width: 40%;
     height: 40%;
     display: flex;
@@ -58,8 +56,15 @@
 }
 
 .textCards {
+    width: 75%;
     font-size: 1.5rem;
     font-weight: 800;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.textCards p {
+    font-size: 1rem;
 }
 
 

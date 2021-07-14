@@ -22,25 +22,29 @@ function Section(){
                     <div className="cards">
                         <GiDiamondRing size={45} />
                          <div className="textCards">
-                            <h3>Casamentos/Aniversários</h3>
+                            <h3>Casamentos/<br></br>Aniversários</h3>
+                            <p>Alugue uma exclusiva limousine para o seu casamento ou aniversário</p>
                         </div>                   
                     </div>
                     <div className="cards">
                         <FaTaxi size={45} />
                         <div className="textCards">
                             <h3>Transfers</h3>
+                            <p>Está chegando em Foz do Iguaçu e quer uma recepção de estrelas?</p>
                         </div>
                     </div>
                     <div className="cards">
                         <GiSteeringWheel size={45} />
                         <div className="textCards">
                             <h3>Tours em Foz</h3>
+                            <p>Passeie pela cidade com seus amigos ou familiares</p>
                         </div>  
                     </div>
                     <div className="cards">
                         <BiDrink size={45} />
                         <div className="textCards">
                             <h3>Festas</h3>
+                            <p>Uma noite para celebrar com amigos ou familiares</p>
                         </div>
                     </div>
                 </div>
