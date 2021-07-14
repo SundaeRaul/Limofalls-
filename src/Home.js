@@ -2,6 +2,8 @@ import './Global.css';
 import Header from './Components/Header/index';
 import Section from './Components/Section/index';
 import Forms from './Components/Form/index';
+import Section2 from './Components/Section2/index';
+import Footer from './Components/Footer/index';
 import './Home.css';
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
       </div>
       <Section />
       <Forms />
+      <Section2 />
+      <Footer />
     </>
   );
 }
