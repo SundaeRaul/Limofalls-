@@ -1,6 +1,7 @@
 import './Global.css';
 import Header from './Components/Header/index';
 import Section from './Components/Section/index';
+import Forms from './Components/Form/index';
 import './Home.css';
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
         </div>
       </div>
       <Section />
+      <Forms />
     </>
   );
 }
