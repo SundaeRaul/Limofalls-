@@ -1,25 +1,27 @@
-.bodyHeader{
-    height: 15vh;
+.bodyHeader {
+    background-color: black;
+    display: flex;
     width: 100vw;
-    background: black;
-    display: flex;
+    height: 10vh;
+    font-family: 'Nunito', 'sans-serif';
+    color: white;
+    font-weight: 700;
     justify-content: space-around;
-}
-
-img {
-    margin-left: 100px;
-}
-.menuIcons {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
+    position: fixed;
+    z-index: 1;
 }
 
-.emailNav {
-    color: white;
+.logo {
+    height: 95px;
+    width: 105px;
 }
 
+.icons-header {
+    display: flex;
+    align-items: center;
+}
 
+.header-email {
+    color: rgba(255,255,255,.5)
+}
