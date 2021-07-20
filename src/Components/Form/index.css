@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+.formBody {
+    background-image: url('../../Imagens/contact-bg.jpg');
+    width: 100vw;
+    height:  80vh;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formBody h1 {
+    margin-top: 40px;
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario input {
+    width: 500px;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: start;
+}
+
+input:focus {
+    border: 2px solid #cc9d0d;
+}
+
+.formulario input + input {
+    margin-top: 40px;
+}
+
+.formulario input:last-child {
+    padding: 45px 45px 45px 12px;
+}
