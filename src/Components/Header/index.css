@@ -40,3 +40,13 @@
     color: white;
     cursor: pointer;
 }
+
+.burger-menu {
+    border: none;
+    border-radius: 5px;
+}
+
+.burger-menu:hover {
+    background: white;
+    border: 2px solid #cc9d0d;
+}
