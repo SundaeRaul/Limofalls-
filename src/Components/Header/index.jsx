@@ -12,9 +12,9 @@ function Header() {
         <div className="bodyHeader">
             <img className="logo" src={Logo} alt="Logo Limofalls" />
             <div className="icons-header">
-                <AiFillFacebook size={25} style={iconsStyle}  />
-                <GrInstagram size={25} style={iconsStyle}  />
-                <ImWhatsapp size={25} style={iconsStyle}  />
+                <AiFillFacebook className="icons" size={25} style={iconsStyle}  />
+                <GrInstagram className="icons" size={25} style={iconsStyle}  />
+                <ImWhatsapp className="icons" size={25} style={iconsStyle}  />
                 <span className="header-email">reservas@limofalls.com.br</span>
             </div>
         </div>

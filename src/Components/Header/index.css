@@ -23,5 +23,20 @@
 }
 
 .header-email {
-    color: rgba(255,255,255,.5)
+    color: rgba(255,255,255,.5);
+    transition: .3s;
+}
+.header-email:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.icons {
+    color: "gray"; 
+    margin: "10px";
+}
+
+.icons:hover {
+    color: white;
+    cursor: pointer;
 }
