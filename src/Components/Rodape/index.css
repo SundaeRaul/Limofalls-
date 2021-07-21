@@ -1,0 +1,17 @@
+.rodapeBody {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.h1Rodape {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.7em;
+    letter-spacing: 4px;
+}
+
+.icons-rodape {
+    padding-top: 30px;
+}
