@@ -10,8 +10,8 @@ function Form() {
                 <input type="text" placeholder="Telefone" />
                 <input type="text" placeholder="Mensagem" />
             </form>
-            <button type="submit">Enviar</button>
-            <span>Contato<br/>(45) 99152-1353</span>
+            <button className="enviar" type="submit">Enviar</button>
+            <span className="contatoNum">Contato<br/>(45) 99152-1353</span>
         </div>
     )
 }

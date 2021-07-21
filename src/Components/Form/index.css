@@ -43,3 +43,29 @@ input:focus {
 .formulario input:last-child {
     padding: 45px 45px 45px 12px;
 }
+
+.enviar {
+    padding: 15px;
+    width: 120px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #cc9d0d;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    transition: .4s;
+}
+
+.enviar:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.contatoNum {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+}
+
