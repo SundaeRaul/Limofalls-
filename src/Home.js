@@ -1,21 +1,12 @@
 import './Global.css';
 import './Home.css';
-import Header from './Components/Header/index';
-import Background  from './Components/Background';
-import Section from './Components/Section/index';
-import Form from './Components/Form/index';
-import Rodape from './Components/Rodape/index';
-import Footer from './Components/Footer/index';
+import Navigation from './Components/Navbar/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
-    <div className="container">
-        <Header  />
-        <Background />
-        <Section />
-        <Form />
-        <Rodape />
-        <Footer />
+    <div className="container-fluid px-0">
+      <Navigation />
     </div>
   );
 }
