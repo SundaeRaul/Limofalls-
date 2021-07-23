@@ -14,27 +14,41 @@ function Navigation() {
   let iconStyle= {margin:"10px", color:"gray"}
 
   return(
-    <nav className="container-fluid navbar navbar-expand-md navbar-dark bg-dark d-flex justify-content-around fixed-top">
-      <img src={Logo} alt="Logo Limofalls" width="90px" height="80px"/>
-      
-        <div className="navbar-collapse collapse show" id="navbarToggler"> 
-          <a className="nav-item nav-link" href="#">
-            <AiFillFacebook size={30} style={iconStyle} />
-          </a>
-          <a className="nav-item nav-link" href="#">
-            <FaInstagramSquare size={30} style={iconStyle} />
-          </a>
-          <a className="nav-item nav-link" href="#">
-            <FaWhatsappSquare size={30} style={iconStyle} />
-          </a>
-          <a className="nav-item nav-link">
-            <span>reservas@limofalls.com.br</span>
-          </a>
-        </div>
+    <nav className="navbar navbar-expand-md navbar-light bg-dark">
+      <div className="container">
+        <a href="">
+          <img src={Logo} height="80px" width="90px" alt="Logo Limofalls"/>
+        </a>
 
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle Navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle Navigation">
+          <span className="navbar-toggler-icon text-white"></span>
+        </button>
+
+        <div id="navigation" className="collapse navbar-collapse justify-content-end">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link">
+                <AiFillFacebook style={iconStyle} size={30} />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
+                <AiFillFacebook style={iconStyle} size={30} />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
+                <AiFillFacebook style={iconStyle} size={30} />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
+                <span className="text-muted d-flex align-items-center">reservas@limofalls.com.br</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   )
 }
