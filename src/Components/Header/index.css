@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.container-fluid {
+    margin-top: 116px;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.img-fluid {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    opacity: .7;
+}
+
+.fw-bold {
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.text-white {
+    margin-top: 350px;
+    margin-right: 160px;
+}
