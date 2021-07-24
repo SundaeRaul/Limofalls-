@@ -6,6 +6,7 @@ import Logo from '../../Imagens/logo_Limofalls-tras.png'
 import {AiFillFacebook} from 'react-icons/ai'
 import {FaInstagramSquare} from 'react-icons/fa'
 import {FaWhatsappSquare} from 'react-icons/fa'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 
 
@@ -14,14 +15,14 @@ function Navigation() {
   let iconStyle= {margin:"10px", color:"gray"}
 
   return(
-    <nav className="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container flex-row">
         <a className="navbar-brand wow slide-in-left animated" href="#" data-wow-duration="1s" visibility="visible"  animation-duration="1s">
           <img src={Logo} height="95px" width="110px" alt="Logo Limofalls"/>
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle Navigation">
-          <span className="navbar-toggler-icon text-white"></span>
+          <GiHamburgerMenu style={iconStyle} size={40} />
         </button>
 
         <div id="navigation" className="collapse navbar-collapse justify-content-end">
