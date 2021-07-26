@@ -6,10 +6,10 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 function Header () {
     return(
-        <div className="container-fluid m-0 p-0 position-absolute">
+        <div className="container-fluid m-0 p-0">
             <img src={Fundo} className="img-fluid" />
             <div className="text-white d-flex position-relative">
-                <h1 className="fw-bold">LIMOFALLS <span className="text-warning">EXPERIENCE</span></h1>
+                <h1 className="fw-bold">LIMOFALLS <span className="text-yellow">EXPERIENCE</span></h1>
                 <h3 className="fw-bold">UMA EXPERIÊNCIA EXCLUSIVA NA TERRA DAS CATARATAS</h3>
             </div>
         </div>
