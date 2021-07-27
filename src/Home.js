@@ -1,9 +1,10 @@
 import './Global.css';
 import './Home.css';
-import Navigation from './Components/Navbar/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './Components/Navbar/index';
 import Header from './Components/Header/index';
-import Section from './Components/Section/index'
+import Section from './Components/Section/index';
+import Forms from './Components/Forms/index';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Navigation />
       <Header />
       <Section />
+      <Forms />
     </div>
   );
 }

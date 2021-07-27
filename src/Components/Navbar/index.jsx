@@ -16,7 +16,7 @@ function Navigation() {
 
   return(
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-      <div className="container flex-row">
+      <div className="container flex-row align-items-center">
         <a className="navbar-brand wow slide-in-left animated" href="#" data-wow-duration="1s" visibility="visible"  animation-duration="1s">
           <img src={Logo} height="95px" width="110px" alt="Logo Limofalls"/>
         </a>
@@ -29,22 +29,17 @@ function Navigation() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link">
-                <AiFillFacebook style={iconStyle} size={40} />
+                <p className="text-color mb-0">Inicio</p>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link">
-                <FaInstagramSquare style={iconStyle} size={40} />
+                <p className="text-color mb-0">Serviços</p>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link">
-                <FaWhatsappSquare style={iconStyle} size={40} />
-              </a>
-            </li>
-            <li className="nav-item d-flex justify-content-center align-items-center">
-              <a className="nav-link">
-                <span className="text-muted">reservas@limofalls.com.br</span>
+                <p className="text-color mb-0">Contato</p>
               </a>
             </li>
           </ul>

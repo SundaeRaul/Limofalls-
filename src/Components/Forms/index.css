@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.contact {
+    background-image: url('../../Imagens/contact-bg.jpg');
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.contact-h1{
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: #cc9d0d;
+    cursor: pointer;
+}
+
+.inputForm {
+    width: 580px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.inputForm:focus{
+    border: 2px solid #cc9d0d;
+}
+
+.btn:hover {
+    background-color: #cc9d0d;
+    cursor: pointer;
+    border: 2px solid black;
+}
