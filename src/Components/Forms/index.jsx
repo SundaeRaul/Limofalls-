@@ -21,7 +21,7 @@ function Forms() {
                     <textarea className="input-contact p-3 col-lg-12" placeholder="Mensagem" />
                 </form>
 
-                <button className="contact-btn btn col-4 mt-5">Enviar Mensagem</button>
+                <button className="contact-btn btn col-4 mt-5 mb-3">Enviar Mensagem</button>
             </div>
         </section>
     )

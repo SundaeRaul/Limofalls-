@@ -5,6 +5,7 @@ import Navigation from './Components/Navbar/index';
 import Header from './Components/Header/index';
 import Section from './Components/Section/index';
 import Forms from './Components/Forms/index';
+import Rodape from './Components/Rodape/index';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Header />
       <Section />
       <Forms />
+      <Rodape />
     </div>
   );
 }

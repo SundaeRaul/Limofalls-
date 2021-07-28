@@ -13,8 +13,8 @@
     filter: blur(3px);
 }
 
-.fw-bold {
-    font-size: 2em;
+.header-text {
+    font-size: 4em;
     font-weight: 800;
     text-align: right;
 }
@@ -29,7 +29,7 @@
 }
 
 @media (min-width: 1440px){
-    .fw-bold {
+    .header-text {
         font-size: 4em;
     }
 }
@@ -39,14 +39,14 @@
         margin-top: 150px;
     }
 
-    .fw-bold {
+    .header-text {
         text-align: center;
         align-items: center;
     }
 }
 
 @media (max-width: 768px) {
-    .fw-bold {
+    .header-text {
         font-size: 1.5em;
         text-align: center;
     }
