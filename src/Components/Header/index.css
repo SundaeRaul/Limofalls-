@@ -36,24 +36,37 @@
 
 @media (max-width: 1024px){
     .text-white {
-        margin-top: 150px;
+        margin-top: 300px;
     }
 
     .header-text {
+        font-size: 3em;
         text-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-white {
+        margin-right: 0;
         align-items: center;
     }
 }
 
 @media (max-width: 768px) {
     .header-text {
-        font-size: 1.5em;
+        font-size: 2em;
         text-align: center;
     }
     .text-white {
         margin-right: 0;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-text {
+        font-size: 1.2em;
     }
 }
 

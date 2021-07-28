@@ -34,3 +34,9 @@
 textarea {
     height: 120px;
 }
+
+@media(max-width: 425px) {
+    .contact-btn{
+        font-size: 1em;
+    }
+}

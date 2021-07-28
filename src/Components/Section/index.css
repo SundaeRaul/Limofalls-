@@ -7,12 +7,6 @@
     color: #cc9d0d;
 }
 
-.icons {
-    height: 500px;
-    margin-left: 120px;
-    width: 900px;
-}
-
 .icon-item {
     width: 320px;
     height: 200px;
@@ -26,4 +20,20 @@
 
 p {
     font-size: 1.3em;
+}
+
+@media (max-width: 1024px){
+    .girls-img {
+        display: none;
+    }
+    
+    .sectionBody {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sectionBody {
+        margin-top: 50px;
+    }
 }

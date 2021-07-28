@@ -16,7 +16,7 @@ function Section() {
             <h1 className="fw-bold">Nossos <span className="text-yellow">Serviços</span></h1>
             <h3>Faça do seu Transporte um show à parte</h3>
             <div className="container d-flex justify-content-between align-items-center mt-3 flex-row">
-                <img src={Girls} alt="Garotas na Limusine" />
+                <img className="girls-img" src={Girls} alt="Garotas na Limusine" />
                 <div className="icons d-flex flex-wrap">
                     <div className="icon-item col-lg-6 row-lg-6 d-flex flex-wrap justity-content-between align-tems-center">
                         <GiDiamondRing className="mt-3" style={iconStyle} size={40} />
