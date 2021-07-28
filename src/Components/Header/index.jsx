@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 function Header () {
     return(
-        <div className="container-fluid m-0 p-0">
+        <div className="container-fluid header-body m-0 p-0">
             <img src={Fundo} className="img-fluid" />
             <div className="text-white d-flex position-relative">
                 <h1 className="header-text fw-bold">LIMOFALLS <span className="text-yellow">EXPERIENCE</span></h1>
