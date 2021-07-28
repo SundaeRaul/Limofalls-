@@ -3,6 +3,9 @@
 .contact {
     background-image: url('../../Imagens/contact-bg.jpg');
     font-family: 'Nunito', 'sans-serif';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .input-contact {
