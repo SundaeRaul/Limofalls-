@@ -7,11 +7,13 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 function Header () {
     return(
         <div className="container-fluid header-body m-0 p-0">
-            <img src={Fundo} className="img-fluid" />
-            <div className="text-white d-flex position-relative">
-                <h1 className="header-text fw-bold">LIMOFALLS <span className="text-yellow">EXPERIENCE</span></h1>
-                <h3 className="header-text fw-bold">UMA EXPERIÊNCIA EXCLUSIVA NA TERRA DAS CATARATAS</h3>
+            <div className="container-fluid p-0">
+                <img src={Fundo} className="img-fluid"/>
+                <div className="container d-flex align-items-end text-end">
+                    <h1 className="h1-header position-relative">LIMOFALLS<span className="experience">EXPEREINCE</span></h1>
+                </div>
             </div>
+            
         </div>
     );
 }
