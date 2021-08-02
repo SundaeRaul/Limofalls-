@@ -4,9 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Components/Navbar/index';
 import Footer from './Components/Footer/index';
 import Fundo from './Imagens/fundoLimofalls.jpg';
-import Fundo2 from './Imagens/contact-bg.jpg';
+import {FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
+import {GrInstagram} from 'react-icons/gr'
 
 function Home() {
+
+  let iconStyle = {margin:"10px", color: "black"}
+
   return (
     <div className="body-home container-fluid px-0 d-flex flex-column">
       <Navigation />
@@ -17,7 +21,7 @@ function Home() {
           <img src={Fundo} className="fundo-header img-fluid position-absolute" />
         </div>
         <div className="text-header container position-relative">
-          <h1 className="h1-header">LIMOFALLS<span className="span-header"> EXPERIENCE</span></h1>
+          <h1 className="h1-header">LIMOFALLS<span className="spans"> EXPERIENCE</span></h1>
           <h3 className="h3-header">UMA EXPERIÊNCIA INÉDITA NA TERRA DAS CATARATAS</h3>
         </div>
       </div>
@@ -79,22 +83,32 @@ function Home() {
       {/* FIM SECTION */}
 
       {/* FORM */}
-      <div class="container-fluid forms-body mt-5 m-0 p-0">
-        <div className="container-fluid p-0 m-0">
-          <img src={Fundo2} className="fundo-header img-fluid position-absolute" />
+      <div className="form-body container-fluid m-0 p-0 mt-5">
+        <div className="container text-center position-relative">
+          <p className="entre-em-contato text-white mt-3">Entre em contato</p>
+          <div className="d-flex flex-column align-items-center justify-content-around text-white">
+            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Nome" />
+            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Email" />
+            <input className="field-form col-lg-6 col-md-4" type="tel" placeholder="Telefone" />
+            <textarea className="field-form col-lg-6 col-md-4" type="text" placeholder="Sua Mensagem" />
+          </div>
+          <button type="submit" className="btn-form col-lg-5 col-md-3">Enviar Mensagem</button>
         </div>
-        <div className="row text-center mt-5">
-          <h1 className="text-white fs-bold position-relative">Entre Em Contato</h1>
-        </div>
-        <form className="forms container position-relative text-center mt-5 d-flex flex-column justify-content-around align-items-center">
-          <input className="field-form col-10 col-lg-8" type="text" placeholder="Seu Nome"/>
-          <input className="field-form col-10 col-lg-8" type="text" placeholder="exemplo@email.com"/>
-          <input className="field-form col-10 col-lg-8" type="tel" placeholder="(45) 99999-9999"/>
-          <textarea class="field-form col-10 col-lg-8" type="text" placeholder="Sua Mensagem" />
-          <button class="btn-form mt-5 col-4">Enviar Mensagem</button>
-        </form>
       </div>
       {/* FIM FORM */} 
+
+      {/* RODAPÉ */}
+      <div className="container-fluid">
+        <div className="container d-flex flex-column justify-content-around align-items-center text-center p-2">
+          <h1 className="h1-header">LIMOFALLS<span className="spans"> EXPERIENCE</span></h1>
+          <div class="container d-flex justify-content-center align-items-center mt-3">
+            <FaFacebookSquare size={45} style={iconStyle} />
+            <GrInstagram size={45} style={iconStyle} />
+            <FaWhatsappSquare size={45} style={iconStyle} />
+          </div>
+        </div>
+      </div>
+      {/* FIM RODAPÉ */}
       <Footer />                    
     </div>
   );

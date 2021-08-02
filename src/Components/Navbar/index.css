@@ -14,3 +14,13 @@ nav {
 .text-color {
   color: white;
 }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  margin-left: 10px;
+}
