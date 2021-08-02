@@ -3,6 +3,7 @@
     width: 100vw;
 }
 
+/*HEADER ===================*/
 .header-container {
     margin-top: 115px;
 }
@@ -58,4 +59,43 @@
         align-items: center;
     }
 }
+
+/*SECTION =====================*/
+
+.section-body {
+    margin-top: 27%;
+    font-size: 1.3em;
+}
+
+/*FORMS =======================*/
+.field-form {
+    border: 2px solid transparent;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.field-form:focus {
+    border: 2px solid #c9a227;
+}
+ textarea {
+     height: 10em;
+ }
+
+.btn-form {
+    background-color: #c9a227;
+    padding: 1%;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn-form:hover {
+    border: 2px solid white;
+    color: white;
+}   
 

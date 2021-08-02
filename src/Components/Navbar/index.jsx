@@ -18,11 +18,11 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container flex-row align-items-center">
         <a className="navbar-brand wow slide-in-left animated" href="#" data-wow-duration="1s" visibility="visible"  animation-duration="1s">
-          <img src={Logo} height="95px" width="110px" alt="Logo Limofalls"/>
+          <img src={Logo} height="75px" width="90px" alt="Logo Limofalls"/>
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle Navigation">
-          <GiHamburgerMenu style={iconStyle} size={40} />
+          <GiHamburgerMenu style={iconStyle} size={25} />
         </button>
 
         <div id="navigation" className="collapse navbar-collapse justify-content-end">
