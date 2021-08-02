@@ -6,8 +6,11 @@ import Footer from './Components/Footer/index';
 import Fundo from './Imagens/fundoLimofalls.jpg';
 import {FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
 import {GrInstagram} from 'react-icons/gr'
+import {useState} from 'react';
 
 function Home() {
+
+  const [email, setEmail] = useState ([])
 
   let iconStyle = {margin:"10px", color: "black"}
 
@@ -86,13 +89,13 @@ function Home() {
       <div className="form-body container-fluid m-0 p-0 mt-5">
         <div className="container text-center position-relative">
           <p className="entre-em-contato text-white mt-3">Entre em contato</p>
-          <div className="d-flex flex-column align-items-center justify-content-around text-white">
+          <form className="d-flex flex-column align-items-center justify-content-around text-white">
             <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Nome" />
-            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Email" />
+            <input className="field-form col-lg-6 col-md-4" type="email" placeholder="Email"  />
             <input className="field-form col-lg-6 col-md-4" type="tel" placeholder="Telefone" />
             <textarea className="field-form col-lg-6 col-md-4" type="text" placeholder="Sua Mensagem" />
-          </div>
-          <button type="submit" className="btn-form col-lg-5 col-md-3">Enviar Mensagem</button>
+          </form>
+          <button type="submit" value="Send" className="btn-form col-lg-5 col-md-3">Enviar Mensagem</button>
         </div>
       </div>
       {/* FIM FORM */} 
