@@ -7,10 +7,23 @@ import Fundo from './Imagens/fundoLimofalls.jpg';
 import {FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
 import {GrInstagram} from 'react-icons/gr'
 import {useState} from 'react';
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
 
 function Home() {
 
-  const [email, setEmail] = useState ([])
+  function enviarEmail(e) {
+    init("user_AMm96q6AFTmezGfpCaNiN");
+    e.preventDefault();
+
+    emailjs.sendForm('Gmail teste', 'template_945v9g6', e.target, 'user_AMm96q6AFTmezGfpCaNiN')
+      .then((result) => {
+          alert('Mensagem enviada com Sucesso!');
+      }, (error) => {
+          alert(error.message);
+      });
+      e.target.reset()
+  }
 
   let iconStyle = {margin:"10px", color: "black"}
 
@@ -89,13 +102,13 @@ function Home() {
       <div id="contato" className="form-body container-fluid m-0 p-0 mt-5">
         <div className="container text-center position-relative">
           <p className="entre-em-contato text-white mt-3">Entre em contato</p>
-          <form className="d-flex flex-column align-items-center justify-content-around text-white">
-            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Nome" />
-            <input className="field-form col-lg-6 col-md-4" type="email" placeholder="Email"  />
-            <input className="field-form col-lg-6 col-md-4" type="tel" placeholder="Telefone" />
-            <textarea className="field-form col-lg-6 col-md-4" type="text" placeholder="Sua Mensagem" />
+          <form onSubmit={enviarEmail} className="d-flex flex-column align-items-center justify-content-around text-white">
+            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Nome" name="nome" />
+            <input className="field-form col-lg-6 col-md-4" type="email" placeholder="Email" name="email"  />
+            <input className="field-form col-lg-6 col-md-4" type="tel" placeholder="Telefone" name="telefone" />
+            <textarea className="field-form col-lg-6 col-md-4" type="text" placeholder="Sua Mensagem" name="mensagem" />
+            <input type="submit" value="Enviar Mensagem" className="btn-form col-lg-5 col-md-3" />
           </form>
-          <button type="submit" value="Send" className="btn-form col-lg-5 col-md-3">Enviar Mensagem</button>
         </div>
       </div>
       {/* FIM FORM */} 
@@ -105,9 +118,15 @@ function Home() {
         <div className="container d-flex flex-column justify-content-around align-items-center text-center p-2">
           <h1 className="h1-header">LIMOFALLS<span className="spans"> EXPERIENCE</span></h1>
           <div class="container d-flex justify-content-center align-items-center mt-3">
-            <FaFacebookSquare size={45} style={iconStyle} />
-            <GrInstagram size={45} style={iconStyle} />
-            <FaWhatsappSquare size={45} style={iconStyle} />
+            <a href="https://www.facebook.com/limofallsexperience">
+              <FaFacebookSquare size={45} style={iconStyle} />
+            </a>
+            <a href="https://www.instagram.com/limofallsexperience/">
+              <GrInstagram size={45} style={iconStyle} />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5545991521353">
+              <FaWhatsappSquare size={45} style={iconStyle} />
+            </a>
           </div>
         </div>
       </div>
