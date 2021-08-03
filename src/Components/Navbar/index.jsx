@@ -28,17 +28,17 @@ function Navigation() {
         <div id="navigation" className="items-nav collapse navbar-collapse justify-content-end">
           <ul className="bg-dark navbar-nav">
             <li className="nav-item ml-3">
-              <a className="nav-link">
+              <a href="../Home.js/#inicio" className="nav-link">
                 <p className="text-color mb-0">Inicio</p>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <a href="../Home.js/#servicos" className="nav-link">
                 <p className="text-color mb-0">Serviços</p>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <a href="../Home.js/#contato" className="nav-link">
                 <p className="text-color mb-0">Contato</p>
               </a>
             </li>

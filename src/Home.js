@@ -19,7 +19,7 @@ function Home() {
       <Navigation />
 
       {/* HEADER */}
-      <div className="header-container container-fluid m-0 p-0">
+      <div id="inicio" className="header-container container-fluid m-0 p-0">
         <div className="container-fluid p-0 m-0">
           <img src={Fundo} className="fundo-header img-fluid position-absolute" />
         </div>
@@ -31,7 +31,7 @@ function Home() {
       {/* FIM HEADER */}
 
       {/* SECTION */} 
-      <div className="container-fluid section-body text-center">
+      <div id="servicos" className="container-fluid section-body text-center">
         <h1>Nossos Serviços</h1>
         <p>Faça do seu translado um show à parte</p>
         <div className="container">
@@ -86,7 +86,7 @@ function Home() {
       {/* FIM SECTION */}
 
       {/* FORM */}
-      <div className="form-body container-fluid m-0 p-0 mt-5">
+      <div id="contato" className="form-body container-fluid m-0 p-0 mt-5">
         <div className="container text-center position-relative">
           <p className="entre-em-contato text-white mt-3">Entre em contato</p>
           <form className="d-flex flex-column align-items-center justify-content-around text-white">
