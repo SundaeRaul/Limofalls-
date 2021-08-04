@@ -16,7 +16,7 @@ function Home() {
     init("user_AMm96q6AFTmezGfpCaNiN");
     e.preventDefault();
 
-    emailjs.sendForm('Gmail teste', 'template_945v9g6', e.target, 'user_AMm96q6AFTmezGfpCaNiN')
+    emailjs.sendForm('limofallsexperience', 'limofalls', e.target, 'user_xaXDnEpXFJC6u4kOBo1Eq')
       .then((result) => {
           alert('Mensagem enviada com Sucesso!');
       }, (error) => {
