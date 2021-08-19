@@ -66,6 +66,12 @@
     margin-top: 27%;
 }
 
+@media (max-width: 1200px) {
+    .section-body {
+        margin-top: 20%;
+    }
+}
+
 /*FORMS =======================*/
 
 .form-body {

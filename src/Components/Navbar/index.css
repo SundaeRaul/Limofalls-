@@ -24,3 +24,18 @@ nav {
 li {
   margin-left: 10px;
 }
+
+@media (max-width: 425px) {
+  nav {
+    height: 10%;
+  }
+
+  .logo-limo{
+    height: 100%;
+    width: auto;
+  }
+
+ .wow {
+   height: 100%;
+ }
+}

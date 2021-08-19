@@ -6,7 +6,6 @@ import Footer from './Components/Footer/index';
 import Fundo from './Imagens/fundoLimofalls.jpg';
 import {FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
 import {GrInstagram} from 'react-icons/gr'
-import {useState} from 'react';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 
@@ -101,13 +100,13 @@ function Home() {
       {/* FORM */}
       <div id="contato" className="form-body container-fluid m-0 p-0 mt-5">
         <div className="container text-center position-relative">
-          <p className="entre-em-contato text-white mt-3">Entre em contato</p>
+          <p className="entre-em-contato text-white mt-5">Entre em contato</p>
           <form onSubmit={enviarEmail} className="d-flex flex-column align-items-center justify-content-around text-white">
-            <input className="field-form col-lg-6 col-md-4" type="text" placeholder="Nome" name="nome" />
-            <input className="field-form col-lg-6 col-md-4" type="email" placeholder="Email" name="email"  />
-            <input className="field-form col-lg-6 col-md-4" type="tel" placeholder="Telefone" name="telefone" />
-            <textarea className="field-form col-lg-6 col-md-4" type="text" placeholder="Sua Mensagem" name="mensagem" />
-            <input type="submit" value="Enviar Mensagem" className="btn-form col-lg-5 col-md-3" />
+            <input className="field-form col-6" type="text" placeholder="Nome" name="nome" />
+            <input className="field-form col-6" type="email" placeholder="Email" name="email"  />
+            <input className="field-form col-6" type="tel" placeholder="Telefone" name="telefone" />
+            <textarea className="field-form col-6" type="text" placeholder="Sua Mensagem" name="mensagem" />
+            <input type="submit" value="Enviar Mensagem" className="btn-form col-3" />
           </form>
         </div>
       </div>
@@ -116,8 +115,8 @@ function Home() {
       {/* RODAPÉ */}
       <div className="container-fluid">
         <div className="container d-flex flex-column justify-content-around align-items-center text-center p-2">
-          <h1 className="h1-header">LIMOFALLS<span className="spans"> EXPERIENCE</span></h1>
-          <div class="container d-flex justify-content-center align-items-center mt-3">
+          <h1 className="h1-header p-4">LIMOFALLS<span className="spans"> EXPERIENCE</span></h1>
+          <div class="container d-flex justify-content-center align-items-center">
             <a href="https://www.facebook.com/limofallsexperience">
               <FaFacebookSquare size={45} style={iconStyle} />
             </a>
