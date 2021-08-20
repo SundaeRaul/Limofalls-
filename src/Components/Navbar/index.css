@@ -38,4 +38,9 @@ li {
  .wow {
    height: 100%;
  }
+
+ .limo-logo {
+   height: 50px;
+   width: 65px;
+ }
 }
