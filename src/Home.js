@@ -98,7 +98,7 @@ function Home() {
       {/* FIM SECTION */}
 
       {/* FORM */}
-      <div id="contato" className="form-body container-fluid m-0 p-0 mt-5">
+      <div id="contato" className="form-body container-fluid mb-5 p-0 mt-5">
         <div className="container text-center position-relative">
           <p className="entre-em-contato text-white mt-5">Entre em contato</p>
           <form onSubmit={enviarEmail} className="d-flex flex-column align-items-center justify-content-around text-white">

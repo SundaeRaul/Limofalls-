@@ -8,6 +8,10 @@
     margin-top: 115px;
 }
 
+.fundo-header {
+    filter: brightness(0.5);
+}
+
 .text-header {
     margin-top: 30%;
     color: white;
@@ -19,7 +23,7 @@
 }
 
 .h1-header {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .h3-header {
@@ -92,10 +96,6 @@
     font-size: 1.8em;
 }
 
-.field-form:focus {
-    border: 2px solid #c9a227;
-}
-
 .btn-form {
     background-color: #c9a227;
     padding: 1%;
@@ -113,3 +113,14 @@
     color: white;
 }   
 
+@media (max-width: 766px) {
+    .btn-form {
+        font-size: .7em;
+    }
+}
+
+@media (max-width: 423px) {
+    .btn-form {
+        font-size: .5em;
+    }
+}
